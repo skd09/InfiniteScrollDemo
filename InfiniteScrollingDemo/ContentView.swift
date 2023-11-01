@@ -12,7 +12,7 @@ struct ContentView: View {
     @State var page = 1
     @State var loading = false
     var body: some View {
-        NavigationStack{
+        NavigationView{
             ZStack{
                 ScrollView{
                     LazyVStack{
